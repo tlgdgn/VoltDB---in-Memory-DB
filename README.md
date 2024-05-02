@@ -16,9 +16,8 @@ Here are some real-life examples where in-memory databases excel:
 	•	**Internet of Things (IoT):** They can efficiently process and analyze data streams from numerous IoT sensors in real-time for applications like predictive maintenance or industrial automation.
  
 However, there are also some downsides to consider:
-
 	•	**Durability:** Data in RAM is volatile and lost during power outages or system crashes. IMDBs often rely on persistence mechanisms like periodic snapshots to mitigate this but may not offer the same data integrity guarantees as persistent databases.
-	•	**Cost: **In-memory databases often require more RAM and specialized hardware, leading to higher costs compared to traditional database solutions.
+	•	**Cost:** In-memory databases often require more RAM and specialized hardware, leading to higher costs compared to traditional database solutions.
 	•	**Capacity:** RAM limitations restrict the amount of data an IMDB can store compared to persistent databases that can scale to massive datasets on hard disks.
  
 Choosing between IMDBs and persistent databases depends on your specific needs. If speed, real-time processing, and high throughput are paramount, in-memory databases like VoltDB or Apache Ignite are strong contenders. However, for applications requiring high data persistence, large-scale storage, or a lower cost point, traditional databases like Oracle or PostgreSQL might be a better fit.
